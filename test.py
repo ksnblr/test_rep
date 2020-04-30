@@ -1,13 +1,12 @@
+import sys
 def about_me(your_name):
     print("The wise {} loves Python.".format(your_name))
 
-def HW():
-    print("Hello World!")
+def HW(your_name):
+    print("Hello {}".format(your_name))
 
-def Both():
-    HW()
-    about_me("Kandaswamy")
+def Both(arg):
+    HW(arg)
+    about_me(arg)
 
-Both()
-F  = open(r"D:\\temp\\a.txt", "a")
-F.write("ok\n")
+Both(sys.argv[1])
