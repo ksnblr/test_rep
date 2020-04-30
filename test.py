@@ -6,7 +6,7 @@ def HW():
 
 def Both():
     HW()
-    about_me("Suresh")
+    about_me("Kandaswamy")
 
 Both()
 F  = open(r"D:\\temp\\a.txt", "a")
